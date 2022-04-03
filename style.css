@@ -105,23 +105,44 @@ button {
 
 
 .section-two {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .section-two-info {
+  font-size: 25px;
+  font-weight: bold;
+  flex: 0 0 auto;
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
 
+.gallery-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  border-bottom: 3px dotted black;
 }
 
 .gallery {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+  border: 3px solid black;
 }
 
 .gallery-images {
-
+  width: 200px;
+  height: auto;
 }
 
 .gallery-text {
-
+  width: 200px;
+  height: auto;
+  margin: 10px;
 }
 
 
