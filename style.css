@@ -15,7 +15,8 @@ body {
 
 .logo-and-links {
   display: flex;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(199, 195, 195);
@@ -29,6 +30,7 @@ body {
   margin-bottom: -40px;
   width: 450px;
   height: auto;
+  flex: 0 1 auto;
 }
 
 .header-links {
@@ -52,7 +54,7 @@ body {
 
 .top-content-and-img {
   display: flex;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   justify-content: space-evenly;
   margin: 0px -10px 0px -10px;
   background-color: rgb(255, 255, 255);
@@ -84,14 +86,14 @@ button {
 
 .top-img {
   display: flex;
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
 .top-img img {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   width: 175px;
   height: 200px;
 }
@@ -101,6 +103,7 @@ button {
   height: 140px;
   width: auto;
 }
+
 
 
 
