@@ -15,10 +15,8 @@ body {
 
 .logo-and-links {
   display: flex;
-  flex: 1 1 auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   background-color: rgb(199, 195, 195);
   margin: -10px -10px 0px -10px;
   padding: 0px 15px 0px 15px;
@@ -30,12 +28,10 @@ body {
   margin-bottom: -40px;
   width: 450px;
   height: auto;
-  flex: 0 1 auto;
 }
 
 .header-links {
   display: flex;
-  flex: 0 0 auto;
   font-size: 20px;
 }
 
@@ -54,7 +50,6 @@ body {
 
 .top-content-and-img {
   display: flex;
-  flex: 1 1 auto;
   justify-content: space-evenly;
   margin: 0px -10px 0px -10px;
   background-color: rgb(255, 255, 255);
@@ -62,10 +57,9 @@ body {
 
 .top-content {
   display: flex;
-  flex: 0 0 auto;
+  flex: 0 0 400px;
   flex-direction: column;
   padding: 0px 25px 0px 25px;
-  width: 400px;
   margin: 20px;
 }
 
@@ -86,20 +80,17 @@ button {
 
 .top-img {
   display: flex;
-  flex: 0 1 auto;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
 .top-img img {
-  flex: 0 1 auto;
   width: 175px;
   height: 200px;
 }
 
 #coffee-two {
-  flex: 0 0 auto;
   height: 140px;
   width: auto;
 }
