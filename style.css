@@ -151,6 +151,14 @@ button {
 
 
 .section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(199, 195, 195);
+  margin: 20px -20px 0px -10px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 
 }
 
@@ -159,11 +167,13 @@ button {
 }
 
 .quote-body {
-
+  font-style: italic;
+  font-size: 27.5px;
 }
 
 .quote-author {
-
+  font-size: 22.5px;
+  font-weight: 600;
 }
 
 
